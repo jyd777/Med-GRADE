@@ -92,7 +92,7 @@ Med-GRADE/
 ```json
 {
   "id": 0,
-  "output": [0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0]
+  "output": ""
 }
 ```
 
@@ -152,7 +152,7 @@ python test.py --input qa.jsonl -m your-model
   "id": 0,
   "instruction": "...",
   "input": "患者：...",
-  "output": [0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0],
+  "output": "",
   "input_tokens": 1234,
   "output_tokens": 56,
   "total_tokens": 1290

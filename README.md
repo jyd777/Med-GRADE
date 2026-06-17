@@ -211,7 +211,7 @@ Based on experiments with 17 LLMs and 4 prompting strategies in the paper, Med-G
 ### Benchmark (paper)
 
 - **Text-only dialogues** — no physical exam, labs, imaging, or other multimodal clinical data.
-- **Specific language and healthcare context** (Chinese online consultations); cross-language and cross-institution generalization needs further study.
+- **Specific language and healthcare context** cross-language and cross-institution generalization needs further study.
 - **Rapid model and prompt evolution** — conclusions from 17 models may not transfer to future systems.
 
 ---

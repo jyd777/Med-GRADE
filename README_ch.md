@@ -5,7 +5,7 @@
 **Med-GRADE** (Medical Grading and Rubric-based Assessment of Doctor-Patient Encounters) 是一个用于评估大语言模型作为**医疗对话量表评审员（LLM-as-Judge）**可靠性的基准。与侧重医学知识问答或通用偏好判别的基准不同，Med-GRADE 关注模型能否在真实医患对话上，依据临床可观察行为对 **23 项 Mini-CEX 改编量表**进行稳定、可解析的二元评分。
 
 <p align="center">
-  <img src="figs/fig-intro_01.png" alt="动机示意图" width="65%"/>
+  <img src="figs/fig-intro_01.png" alt="动机示意图" width="50%"/>
 </p>
 
 

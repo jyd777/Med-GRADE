@@ -204,10 +204,6 @@ Based on experiments with 17 LLMs and 4 prompting strategies in the paper, Med-G
 
 4. **More complex prompts are not always better.** Chain-of-Thought can break structured output (e.g., Gemini valid parse rate drops from 99.95% to 19.36%) or hurt Macro-F1; Few-shot / Self-refine help some items but shift scoring boundaries on others.
 
-5. **Department differences are substantial.** ENT is weak on DTM (diagnostic rationale); ophthalmology HC scores suffer when brevity is mistaken for coldness; psychiatry and oncology dialogues with high uncertainty and emotional load are often judged as adequate when only superficially complete.
-
-6. **Data provenance is partially verifiable.** Searching patients’ first questions from `qa.jsonl` on the Chunyu Doctor platform yields exact matches for about **7.7%** (145/1880 searchable samples), confirming real online consultation origins while also indicating many dialogues are rewritten or not publicly retrievable.
-
 ---
 
 ## Limitations

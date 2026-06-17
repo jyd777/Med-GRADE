@@ -76,11 +76,11 @@ Med-GRADE/
 ```json
 {
   "id": 0,
-  "input": "患者：...\n医生：...",
-  "department_level1": "皮肤科",
+  "input": "patient：...\n doctor：...",
+  "department_level1": "Dermatology",
   "department_level2": null,
-  "clinical_domain": "脱发",
-  "consultation_intent": "治疗建议"
+  "clinical_domain": "",
+  "consultation_intent": "Treatment Recommendations"
 }
 ```
 
@@ -148,7 +148,7 @@ python test.py --input qa.jsonl -m your-model
 {
   "id": 0,
   "instruction": "...",
-  "input": "患者：...",
+  "input": "patient：...",
   "output": [0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0],
   "input_tokens": 1234,
   "output_tokens": 56,

@@ -198,7 +198,7 @@ Based on experiments with 17 LLMs and 4 prompting strategies in the paper, Med-G
 
 1. **Overall reliability is only moderate.** The best model, Gemini-3.1-Pro, reaches **64.89%** Overall Macro-F1 and **68.28%** Hamming Accuracy — still far from safe deployment for clinical workflow QA.
 
-2. **DTM is the hardest dimension.** Diagnosis and treatment management (differential diagnosis, plan quality, rationale explanation) lags significantly behind MI and HC. Medical-specialized models average only about **22.80%** Macro-F1 on DTM; the gap between Hamming and Macro-F1 is largest here, so item-level agreement may **overestimate** true reliability.
+2. **DTM is the hardest dimension.** Diagnosis and treatment management (differential diagnosis, plan quality, rationale explanation) lags significantly behind MI and HC. Medical-specialized models average only about **32.12%** Macro-F1 on DTM; the gap between Hamming and Macro-F1 is largest here, so item-level agreement may **overestimate** true reliability.
 
 3. **Medical-specialized models are not automatically better.** Some medical models do reasonably on HC but lag on DTM items requiring clinical reasoning; consultation QA fine-tuning does not equal rubric-calibrated judging ability.
 

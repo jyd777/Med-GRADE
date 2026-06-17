@@ -5,7 +5,7 @@
 **Med-GRADE** (*Medical Grading and Rubric-based Assessment of Doctor-Patient Encounters*) is a benchmark for evaluating how reliably large language models serve as **LLM-as-Judge** reviewers on medical dialogues. Unlike benchmarks focused on medical knowledge QA or general preference ranking, Med-GRADE asks whether models can assign stable, parseable binary scores on a **23-item Mini-CEX–adapted rubric** over real doctor–patient conversations, based on clinically observable behaviors.
 
 <p align="center">
-  <img src="figs/fig-intro_01.png" alt="Motivation" width="55%"/>
+  <img src="figs/fig-intro_01.png" alt="Motivation" width="50%"/>
 </p>
 
 ---

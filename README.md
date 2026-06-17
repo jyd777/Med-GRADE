@@ -20,7 +20,7 @@ Med-GRADE contains **2,076** physician-reviewed real online doctor–patient dia
 | Humanistic Care | HC | 2.1–2.8 | Respect and empathy, interview organization, emotional support, privacy protection, etc. |
 | Diagnosis & Treatment Management | DTM | 3.1–3.7 | Information prioritization, credibility verification, differential diagnosis, treatment plan quality, etc. |
 
-The dataset also includes clinical metadata: **18** primary departments, **38** secondary departments, **1,416** clinical domains, and **9** consultation intents. Dialogues average about **14.1** turns and **1,454** words.
+The dataset also includes clinical metadata: **17** primary departments, **38** secondary departments, **1,416** clinical domains, and **8** consultation intents. Dialogues average about **14.1** turns and **1,454** words.
 
 <p align="center">
   <img src="figs/fig-frame_01.png" alt="Figure 2 — Med-GRADE pipeline" width="85%"/>

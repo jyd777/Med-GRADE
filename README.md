@@ -149,7 +149,7 @@ python test.py --input qa.jsonl -m your-model
   "id": 0,
   "instruction": "...",
   "input": "patient：...",
-  "output": ",
+  "output": "...",
   "input_tokens": 1234,
   "output_tokens": 56,
   "total_tokens": 1290
